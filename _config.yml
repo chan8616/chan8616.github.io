@@ -1,7 +1,7 @@
 # Site
 repository: chan8616/chan8616.github.io 
 # Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: images/JINSEOK.ico
+# favicon: images/favicon.ico
 # Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -18,7 +18,7 @@ email: cksdid0209@gmail.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
@@ -55,6 +55,7 @@ linkedin_username: chanyang-seo-038670244
 about_profile_image: images/image01.png
 # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
+  My research interests are in artificial intelligence and algorithms.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -64,7 +65,18 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: POSTECH(Pohang University of Science and Technology)
+        sub_title: Master of Science in Artificial Intelligence
+        caption: 2020-2022
+        quote: >
+          Courses
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+  - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -96,17 +108,6 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
