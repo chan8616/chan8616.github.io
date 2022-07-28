@@ -1,7 +1,7 @@
 # Site
 repository: chan8616/chan8616.github.io 
 # Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-favicon: images/JINSEOK.ico
+favicon: images/jinseok.ico
 # Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -52,30 +52,36 @@ linkedin_username: chanyang-seo-038670244
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/image01.png
+about_profile_image: images/chan.jpg
 # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  My research interests are in artificial intelligence and algorithms.
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I'm interested in artificial intelligence and algorithms.
+  For my recent research area, I've been working on nearest-neighbor search or computing shortest paths under the $L_1$ metric.
+  I have experience with <mark>pytorch</mark>, <mark>SQL</mark> and <mark>Ipe</mark>(Geometric objects drawing tool).
+  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  #   - Lists
+  #   - Tables
+  #   - <a href="google.com">Links</a>
+  #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: POSTECH(Pohang University of Science and Technology)
+        border: weak
+        title: POSTECH
         sub_title: Master of Science in Artificial Intelligence
         caption: 2020-2022
         quote: >
-          Courses
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Title of Thesis: Shortest Paths Between Line Segments in the Presence of Rectangular obstacles 
+        # description: | # this will include new lines to allow paragraphs
+        #  Description of qualification
+      - layout: top-right
+        border: weak
+        title: Inha University
+        sub_title: Bachelor of in International Trade
+        caption: 2010-2015
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -94,9 +100,7 @@ content:
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+  - title: Awards
     layout: list
     content:
       - layout: right
@@ -108,12 +112,38 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        border: weak
+        title: POSTECH Institute of Artificial Intelligence
+        sub_title: AI Researcher
+        caption: 2018-2022
+        link: http://piai.postech.ac.kr
+        description: | # this will include new lines to allow paragraphs
+          Developing AI softwares 
+          - Object detection
+          - Image segmentation
+          - Anomaly Detection
+      - layout: right
+        border: weak
+        title: H.For
+        sub_title: Database developer
+        caption: 2016-2018
+        link: http://www.hfor.net/
+        description: | # this will include new lines to allow paragraphs
+          Developing Database Search System 
+          - PL/SQL
+          - SQL
+          - ORACLE
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      In addition to my research interests, here's a list of my favorites:
+      - My lovely puppies, **Jinseok** and **Jingook** ![alt text](/images/-trees.jpg "Trees")
+      - Travel
+      - Knitting
 
 # Footer
 footer_show_references: true
