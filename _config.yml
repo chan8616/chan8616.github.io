@@ -133,7 +133,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       In addition to my research interests, here's a list of my favorites:
-      - My lovely puppies, **Jinseok** and **Jingook** |
+      - My lovely puppies, **Jinseok** and **Jingook**
+      
       ![jj](/images/j_bros.jpg)
       - Traveling
       - Knitting
