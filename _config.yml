@@ -56,14 +56,8 @@ about_profile_image: images/chan.jpg
 # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   I'm interested in artificial intelligence and algorithms.
-  For my recent research area, I've been working on nearest-neighbor search or computing shortest paths under the $L_1$ metric.
+  For my recent research area, I've been working on [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram#:~:text=In%20mathematics%2C%20a%20Voronoi%20diagram,%2C%20sites%2C%20or%20generators).) and shortest paths under the L1 metric.
   I have experience with <mark>pytorch</mark>, <mark>SQL</mark> and <mark>Ipe</mark>(Geometric objects drawing tool).
-  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-  #   - Lists
-  #   - Tables
-  #   - <a href="google.com">Links</a>
-  #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
 content:
   - title: Education
     layout: list
@@ -78,7 +72,6 @@ content:
         # description: | # this will include new lines to allow paragraphs
         #  Description of qualification
       - layout: top-right
-        border: weak
         title: Inha University
         sub_title: Bachelor of in International Trade
         caption: 2010-2015
