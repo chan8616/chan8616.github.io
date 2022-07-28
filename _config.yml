@@ -56,7 +56,7 @@ about_profile_image: images/chan.jpg
 # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   I'm interested in artificial intelligence and algorithms.
-  For my recent research area, I've been working on [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram#:~:text=In%20mathematics%2C%20a%20Voronoi%20diagram,%2C%20sites%2C%20or%20generators).) and shortest paths under the L1 metric.
+  For my recent research area, I've been working on [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram#:~:text=In%20mathematics%2C%20a%20Voronoi%20diagram,%2C%20sites%2C%20or%20generators) and shortest paths under the L1 metric.
   I have experience with <mark>pytorch</mark>, <mark>SQL</mark> and <mark>Ipe</mark>(Geometric objects drawing tool).
 content:
   - title: Education
@@ -120,8 +120,7 @@ content:
           - Image segmentation
           - Anomaly Detection
       - layout: right
-        border: weak
-        title: H.For
+        title: H.FOR
         sub_title: Database developer
         caption: 2016-2018
         link: http://www.hfor.net/
@@ -134,7 +133,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       In addition to my research interests, here's a list of my favorites:
-      - My lovely puppies, **Jinseok** and **Jingook** ![alt text](/images/-trees.jpg "Trees")
+      - My lovely puppies, **Jinseok** and **Jingook** !(/images/j_bros.jpg "JJ")
       - Travel
       - Knitting
 
