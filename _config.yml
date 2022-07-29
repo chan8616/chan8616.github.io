@@ -70,8 +70,7 @@ content:
         title: POSTECH
         sub_title: Master of Science in Artificial Intelligence
         caption: 2020-2022
-        description: | # this will include new lines to allow paragraphs
-        **Title of Thesis** Shortest Paths Between Line Segments in the Presence of Rectangular obstacles 
+        description: **Title of Thesis** Shortest Paths Between Line Segments in the Presence of Rectangular obstacles 
       - layout: top-right
         title: Inha University
         sub_title: Bachelor of in International Trade
