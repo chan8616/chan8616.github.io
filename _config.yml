@@ -83,7 +83,7 @@ content:
       - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+        sub_title: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
         use_math: true
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)
         link_text: Link Text
@@ -144,6 +144,13 @@ footer_show_references: true
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -163,10 +170,3 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
-  
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
