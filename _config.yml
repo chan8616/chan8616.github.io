@@ -80,14 +80,16 @@ content:
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+        use_math: true
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)
         link_text: Link Text
         quote: >
-          Short overview of the project (optional)
+          In this paper, we present an algorithm to compute $L_1$ shortest paths between two vertical or horizontal line segments avoiding $n$ axis-aligned rectangular obstacles.
+          The suggested algorithm computes the minimum shortest path in $O(n \log n)$ time using $O(n)$ space and the maximum shortest path in $O(n^2)$ time and $O(n^2)$ space.
   - title: Awards
     layout: list
     content:
