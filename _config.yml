@@ -1,7 +1,7 @@
 # Site
 repository: chan8616/chan8616.github.io 
 # Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-favicon: images/jinseok.ico
+favicon: images/jin.ico
 # Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -54,9 +54,11 @@ linkedin_username: chanyang-seo-038670244
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/chan.jpg
 # Directory of profile image (eg. images/profile.jpg)
+use_math: true
 about_content: | # this will include new lines to allow paragraphs
   I'm interested in artificial intelligence and algorithms.
-  For my recent research area, I've been working on [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram#:~:text=In%20mathematics%2C%20a%20Voronoi%20diagram,%2C%20sites%2C%20or%20generators) and shortest paths under the L1 metric.
+  For my recent research area, I've been working on [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram#:~:text=In%20mathematics%2C%20a%20Voronoi%20diagram,%2C%20sites%2C%20or%20generators) 
+  and shortest paths under the $L_1$ metric.
   I have experience with <mark>pytorch</mark>, <mark>SQL</mark> and <mark>Ipe</mark>(Geometric objects drawing tool).
 content:
   - title: Education
@@ -81,16 +83,9 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)
         link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Short overview of the project (optional)
   - title: Awards
@@ -166,3 +161,10 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+  
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
