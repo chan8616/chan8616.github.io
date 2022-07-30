@@ -51,7 +51,36 @@ content:
         sub_title: Bachelor of Science in Business Administration and Economics (International Trade)
         caption: 2010-2015
         quote: >
-          Dean’s list (2010 - 2013) 
+          Dean’s list (2010 - 2013)
+  - title: Study Abroad
+    layout: list
+    content:
+      - layout: top-right
+        border: weak
+        title: Carnegie Mellon University
+        sub_title: IITP program
+        caption: 2022.01-2022.07
+        description: | # this will include new lines to allow paragraphs
+          Courses:
+          - 11-785 Introduction to Deep Learning
+          - 11-775 Large-scale Multimedia Analysis
+          - 17-745 Machine Learning in Production
+          - 17-737 Artificial Intelligence for Social Good
+      - layout: top-right
+        title: University of Rhode Island
+        sub_title: Exchange Student
+        caption: 2013.09-2014.02
+        quote: >
+          Courses:
+          - Intro. to Astronomy: Solar system
+          - Introduction to Resource Econ
+          - Prin of Econ: Macroeconomics
+          - Intermediate Chinese 1
+      - layout: top-right
+        title: Tianjin University
+        caption: 2011
+        description:
+          Study chinese
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -92,9 +121,54 @@ content:
           a new word embedding technique that supplements fastText to be suitable for learning Korean sentence structure. 
           WCE is an improved method for better learning part-of-speech information 
           by adding part-of-speech information of words to the fastText-based embedding dimension.
-          Text generation results using WCE show more complete sentence structure than FastText alone.
         description: | # this will include new lines to allow paragraphs
           Hyungbae Cho, Chanyang Seo, Soyoung Kang, Eunyoung Youn
+  - title: Research Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-left
+        border: weak  
+        sub_title: AI Based Optimal Operation Path Search
+        link: https://www.skhynix.com/
+        link_text: from SK Hynix
+        quote: >
+          2020.12. ~ 2021.09.
+        description: | # this will include new lines to allow paragraphs
+          Task:
+          - Design Deep Neural Networks(RNNs, GNNs) to find the optimal paths
+          - Data Preprocessing for Reinforcement Learning
+      - layout: top-left
+        border: weak  
+        sub_title: Fault Detection of Gas Pressure Regulator
+        link: https://www.kogas.or.kr/
+        link_text: from KOGAS
+        quote: >
+          2018.12. ~ 2020.07.
+        description: | # this will include new lines to allow paragraphs
+          Task:
+          - Data Preprocessing
+          - Design Deep Neural Networks(RNNs, GNNs) to detect failure of gas pressure regulator
+          - Applying boosting algorithms to detect failure of gas pressure regulator
+      - layout: top-left
+        sub_title: Developing a GUI tool to train Deep Neural Network
+        link: https://github.com/chan8616/PoAI
+        link_text: from PIAI
+        quote: >
+          2018.05. ~ 2020.08.
+        description: | # this will include new lines to allow paragraphs
+          Task:
+          - Design and develop GUI tool for the process of training DNN models
+          - Implement Deep learning models inside the tool
+      - layout: top-left
+        sub_title: AI for writing Korean Poetry
+        link: http://pirl.postech.ac.kr/news/view/id/79#u
+        link_text: from PIAI
+        quote: >
+          2018.01. ~ 2018.04.
+        description: | # this will include new lines to allow paragraphs
+          Task:
+          - Preprocessing of Korean poetry
+          - Design and train Seq2Seq model to generate Korean poetry
   - title: Working Experiences
     layout: list
     content:
@@ -174,12 +248,11 @@ content:
       - layout: right
         border: weak
         title: English
-        sub_title: Communicative both in oral and written
+        sub_title: Communicative in oral and written
         caption: TOEIC 940
       - layout: right
-        border: weak
         title: Chinese
-        sub_title: Communicative both in oral and written
+        sub_title: Communicative in oral and written
         caption: HSK Level5 250
   - title: Honors and Awards
     layout: list
@@ -190,9 +263,9 @@ content:
         sub_title: Korea Computer Congress 2022
         #caption: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
         link: https://www.kiise.or.kr/conference/board/boardview.do?CC=kcc&CS=2022&PARENT_ID=050100&&NUM=317
-        link_text: [url]
-        description: | # this will include new lines to allow paragraphs
-          Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+        link_text: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+        #description: | # this will include new lines to allow paragraphs
+        #  Title: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
       - layout: right
         title: Scholarship for academic excellence
         sub_title: Inha University
