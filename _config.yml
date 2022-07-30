@@ -22,34 +22,8 @@ darkmode: false
 use_math: true
 
 # Social links
-#twitter_username: jekyllrb
 github_username:  chan8616
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
 linkedin_username: chanyang-seo-038670244
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#orcid_username: 0000-0000-0000-0000
-#googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -104,7 +78,7 @@ content:
         link: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07503217
         link_text: Korea Computer Congress 2018
         quote: >
-          [Abstract] Compared to English or other foreign languages, 
+          [Abstract] Compared to English, 
           Korean has many types of conjugation due to the nature of the language. 
           Depending on the word embedding technique, 
           there is a clear difference in the performance of the NLP model. 
@@ -113,19 +87,7 @@ content:
           WCE is an improved method for better learning part-of-speech information 
           by adding part-of-speech information of words to the fastText-based embedding dimension.
           Text generation results using WCE show more complete sentence structure than FastText alone.
-  - title: Awards
-    layout: list
-    content:
-      - layout: right
-        title: Best Paper Award(Computer Theory)
-        sub_title: Korea Computer Congress 2022
-        caption: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
-        link: https://www.kiise.or.kr/conference/board/boardview.do?CC=kcc&CS=2022&PARENT_ID=050100&&NUM=317
-      - layout: right
-        title: Scholarship for academic excellence
-        sub_title: Inha University
-        caption: 2010, 2011
-  - title: Experience
+  - title: Working Experiences
     layout: list
     content:
       - layout: right
@@ -149,6 +111,62 @@ content:
           - PL/SQL
           - SQL
           - ORACLE
+  - title: Educational Activities
+    layout: list
+    content:
+      - layout: right
+        border: weak
+        title: Teaching Assistant
+        sub_title: CSED331 Algorithms, POSTECH
+        caption: 2021
+        description: | # this will include new lines to allow paragraphs
+          Algorithms
+          - Divide and conquer
+          - Graph algorithms
+          - Greedy
+          - Dynamic programming
+          - Heuristic algorithms
+      - layout: right
+        border: weak
+        title: Teaching Assistant
+        sub_title: POSCO AI Expert
+        caption: 2021
+        description: | # this will include new lines to allow paragraphs
+          Algorithms
+      - layout: right
+        border: weak
+        title: Teaching Assistant
+        sub_title: Hustar Innovation Academy
+        caption: 2019
+        description: | # this will include new lines to allow paragraphs
+          Computer vision
+          - Semantic segmentation
+          - Object segmentation
+      - layout: right
+        border: weak
+        title: Teaching Assistant
+        sub_title: Hustar Innovation Academy
+        caption: 2019
+        description: | # this will include new lines to allow paragraphs
+          Computer vision
+          - Semantic segmentation
+          - Object segmentation
+  - title: Honors and Awards
+    layout: list
+    content:
+      - layout: right
+        border: weak
+        title: Best Paper Award
+        sub_title: Korea Computer Congress 2022
+        #caption: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+        link: https://www.kiise.or.kr/conference/board/boardview.do?CC=kcc&CS=2022&PARENT_ID=050100&&NUM=317
+        link_text: [url]
+        description: | # this will include new lines to allow paragraphs
+          Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+      - layout: right
+        title: Scholarship for academic excellence
+        sub_title: Inha University
+        caption: 2010, 2011
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
