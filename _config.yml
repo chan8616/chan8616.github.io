@@ -67,10 +67,11 @@ content:
           - 17-745 Machine Learning in Production
           - 17-737 Artificial Intelligence for Social Good
       - layout: top-right
+        border: weak  
         title: University of Rhode Island
         sub_title: Exchange Student
         caption: 2013.09-2014.02
-        quote: >
+        description: |
           Courses:
           - Intro. to Astronomy: Solar system
           - Introduction to Resource Econ
@@ -84,18 +85,18 @@ content:
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        sub_title: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+      - layout: top-middle
+        border: weak  
+        title: Shortest Paths Between Line Segments in the Presence of Rectangular Obstacles
+        sub_title: Chanyang Seo, Taehoon Ahn, Hee-Kap Ahn
         link: Link to project
         link_text: Korea Computer Congress 2022
         quote: >
           [Abstract] In this paper, we present an algorithm to compute $L_1$ shortest paths between two vertical or horizontal line segments avoiding $n$ axis-aligned rectangular obstacles.
           The suggested algorithm computes the minimum shortest path in $O(n \log n)$ time using $O(n)$ space and the maximum shortest path in $O(n^2)$ time and $O(n^2)$ space.
-        description: | # this will include new lines to allow paragraphs
-          Chanyang Seo, Taehoon Ahn, Hee-Kap Ahn
-      - layout: top-left
+        #description: | # this will include new lines to allow paragraphs
+        #  Chanyang Seo, Taehoon Ahn, Hee-Kap Ahn
+      - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         sub_title: Farthest-point Voronoi diagrams in the presence of rectangular obstacles
@@ -108,7 +109,7 @@ content:
           We can construct a data structure in the same construction time and space that answer a farthest-neighbor query in $O(\log(n+m)) time.
         description: | # this will include new lines to allow paragraphs
           Mincheol Kim, Chanyang Seo, Taehoon Ahn, Hee-Kap Ahn
-      - layout: top-left
+      - layout: top-middle
         sub_title: Design and Implementation of Word Classes Embedding for Improving FastText
         link: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE07503217
         link_text: Korea Computer Congress 2018
@@ -126,22 +127,22 @@ content:
   - title: Research Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-left
+      - layout: top-middle
         border: weak  
         sub_title: AI Based Optimal Operation Path Search
         link: https://www.skhynix.com/
-        link_text: from SK Hynix
+        link_text: by SK Hynix
         quote: >
           2020.12. ~ 2021.09.
         description: | # this will include new lines to allow paragraphs
           Task:
           - Design Deep Neural Networks(RNNs, GNNs) to find the optimal paths
           - Data Preprocessing for Reinforcement Learning
-      - layout: top-left
+      - layout: top-middle
         border: weak  
         sub_title: Fault Detection of Gas Pressure Regulator
         link: https://www.kogas.or.kr/
-        link_text: from KOGAS
+        link_text: by KOGAS
         quote: >
           2018.12. ~ 2020.07.
         description: | # this will include new lines to allow paragraphs
@@ -149,20 +150,21 @@ content:
           - Data Preprocessing
           - Design Deep Neural Networks(RNNs, GNNs) to detect failure of gas pressure regulator
           - Applying boosting algorithms to detect failure of gas pressure regulator
-      - layout: top-left
+      - layout: top-middle
+        border: weak  
         sub_title: Developing a GUI tool to train Deep Neural Network
         link: https://github.com/chan8616/PoAI
-        link_text: from PIAI
+        link_text: by PIAI
         quote: >
           2018.05. ~ 2020.08.
         description: | # this will include new lines to allow paragraphs
           Task:
           - Design and develop GUI tool for the process of training DNN models
           - Implement Deep learning models inside the tool
-      - layout: top-left
+      - layout: top-middle
         sub_title: AI for writing Korean Poetry
         link: http://pirl.postech.ac.kr/news/view/id/79#u
-        link_text: from PIAI
+        link_text: by PIAI
         quote: >
           2018.01. ~ 2018.04.
         description: | # this will include new lines to allow paragraphs
@@ -230,7 +232,6 @@ content:
           - Semantic segmentation
           - Object segmentation
       - layout: right
-        border: weak
         title: Teaching Assistant
         sub_title: Hustar Innovation Academy
         caption: 2019
