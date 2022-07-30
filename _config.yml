@@ -121,46 +121,42 @@ content:
   - title: Research Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-right
+      - layout: top-left
         border: weak  
         title: AI Based Optimal Operation Path Search
         link: https://www.skhynix.com/
         link_text: by SK Hynix
-        quote: >
-          2020.12. ~ 2021.09.
+        caption: 2020.12. - 2021.09.
         description: | # this will include new lines to allow paragraphs
           Task:
           - Design Deep Neural Networks(RNNs, GNNs) to find the optimal paths
           - Data Preprocessing for Reinforcement Learning
-      - layout: top-right
+      - layout: top-left
         border: weak  
         title: Fault Detection of Gas Pressure Regulator
         link: https://www.kogas.or.kr/
         link_text: by KOGAS
-        quote: >
-          2018.12. ~ 2020.07.
+        caption: 2018.12. - 2020.07.
         description: | # this will include new lines to allow paragraphs
           Task:
           - Data Preprocessing
           - Design Deep Neural Networks(RNNs, GNNs) to detect failure of gas pressure regulator
           - Applying boosting algorithms to detect failure of gas pressure regulator
-      - layout: top-right
+      - layout: top-left
         border: weak  
         title: Developing a GUI tool to train Deep Neural Network
         link: https://github.com/chan8616/PoAI
         link_text: by PIAI
-        quote: >
-          2018.05. ~ 2020.08.
+        caption: 2018.05. - 2020.08.
         description: | # this will include new lines to allow paragraphs
           Task:
           - Design and develop GUI tool for the process of training DNN models
           - Implement Deep learning models inside the tool
-      - layout: top-right
+      - layout: top-left
         title: AI for writing Korean Poetry
         link: http://pirl.postech.ac.kr/news/view/id/79#u
         link_text: by PIAI
-        quote: >
-          2018.01. ~ 2018.04.
+        caption: 2018.01. - 2018.04.
         description: | # this will include new lines to allow paragraphs
           Task:
           - Preprocessing of Korean poetry
