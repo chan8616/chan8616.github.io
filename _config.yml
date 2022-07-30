@@ -31,7 +31,7 @@ about_profile_image: images/chan.jpg
 # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   I'm interested in artificial intelligence and algorithms.
-  For my recent research area, I've been working on [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram#:~:text=In%20mathematics%2C%20a%20Voronoi%20diagram,%2C%20sites%2C%20or%20generators) 
+  Recently, I've been working on [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram#:~:text=In%20mathematics%2C%20a%20Voronoi%20diagram,%2C%20sites%2C%20or%20generators) 
   and shortest paths under the $L_1$ metric.
   
   I have experience with <mark>pytorch</mark> <mark>SQL</mark> and <mark>Ipe</mark>(Geometric objects drawing tool).
@@ -45,11 +45,13 @@ content:
         sub_title: Master of Science in Artificial Intelligence
         caption: 2020-2022
         quote: >
-          Title of Thesis: Shortest Paths Between Line Segments in the Presence of Rectangular obstacles 
+          **Title of Thesis**: Shortest Paths Between Line Segments in the Presence of Rectangular obstacles 
       - layout: top-right
         title: Inha University
-        sub_title: Bachelor of in International Trade
+        sub_title: Bachelor of Science in Business Administration and Economics (International Trade)
         caption: 2010-2015
+        quote: >
+          Overall GPA: 4.15/4.5  Dean’s list (2010 - 2013) 
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
