@@ -55,7 +55,7 @@ content:
   - title: Study Abroad
     layout: list
     content:
-      - layout: top-right
+      - layout: right
         border: weak
         title: Carnegie Mellon University
         sub_title: IITP program
@@ -66,7 +66,7 @@ content:
           - 11-775 Large-scale Multimedia Analysis
           - 17-745 Machine Learning in Production
           - 17-737 Artificial Intelligence for Social Good
-      - layout: top-right
+      - layout: right
         border: weak  
         title: University of Rhode Island
         sub_title: Exchange Student
@@ -77,7 +77,7 @@ content:
           - Introduction to Resource Econ
           - Prin of Econ: Macroeconomics
           - Intermediate Chinese 1
-      - layout: top-right
+      - layout: right
         title: Tianjin University
         caption: 2011
   - title: Publications # Title for the section
@@ -121,7 +121,7 @@ content:
   - title: Research Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: top-right
         border: weak  
         title: AI Based Optimal Operation Path Search
         link: https://www.skhynix.com/
@@ -132,7 +132,7 @@ content:
           Task:
           - Design Deep Neural Networks(RNNs, GNNs) to find the optimal paths
           - Data Preprocessing for Reinforcement Learning
-      - layout: top-middle
+      - layout: top-right
         border: weak  
         title: Fault Detection of Gas Pressure Regulator
         link: https://www.kogas.or.kr/
@@ -144,7 +144,7 @@ content:
           - Data Preprocessing
           - Design Deep Neural Networks(RNNs, GNNs) to detect failure of gas pressure regulator
           - Applying boosting algorithms to detect failure of gas pressure regulator
-      - layout: top-middle
+      - layout: top-right
         border: weak  
         title: Developing a GUI tool to train Deep Neural Network
         link: https://github.com/chan8616/PoAI
@@ -155,7 +155,7 @@ content:
           Task:
           - Design and develop GUI tool for the process of training DNN models
           - Implement Deep learning models inside the tool
-      - layout: top-middle
+      - layout: top-right
         title: AI for writing Korean Poetry
         link: http://pirl.postech.ac.kr/news/view/id/79#u
         link_text: by PIAI
