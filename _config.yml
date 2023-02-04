@@ -12,12 +12,10 @@ name: Chanyang Seo
 title: AI Engineer
 email: cksdid0209@gmail.com
 # email_title: Email (Email title override)
-# phone: 
-# phone_title: Phone (Phone title override)
 website: https://peng-hi.tistory.com
 website_title: Blog
-portfolio: https://www.notion.so/chanyangseo/Chanyang-s-Portfolio-7a7ec506213543eba57ab78e140a7d94
-portfolio_title: Portfolio
+phone: https://www.notion.so/chanyangseo/Chanyang-s-Portfolio-7a7ec506213543eba57ab78e140a7d94
+phone_title: Portfolio
 
 # Dark Mode (true/false/never)
 darkmode: false
