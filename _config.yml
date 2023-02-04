@@ -12,10 +12,8 @@ name: Chanyang Seo
 title: AI Engineer
 email: cksdid0209@gmail.com
 # email_title: Email (Email title override)
-website: https://www.notion.so/chanyangseo/Chanyang-s-Portfolio-7a7ec506213543eba57ab78e140a7d94
-website_title: Portfolio
-phone: https://peng-hi.tistory.com
-phone_title: Blog
+website: https://peng-hi.tistory.com
+website_title: Blog
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -35,6 +33,8 @@ about_content: | # this will include new lines to allow paragraphs
   and shortest paths under the $L_1$ metric.
   
   I have experience with <mark>pytorch</mark> <mark>SQL</mark> and <mark>Ipe</mark>(Geometric objects drawing tool).
+  
+  You can check my portfolio [here](https://www.notion.so/chanyangseo/Chanyang-s-Portfolio-7a7ec506213543eba57ab78e140a7d94).
 content:
   - title: Education
     layout: list
