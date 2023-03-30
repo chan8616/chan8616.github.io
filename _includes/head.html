@@ -18,7 +18,5 @@
   {%- if jekyll.environment == 'production' and site.gtag -%}
     {%- include gtag.html -%}
   {%- endif -%}
-  {% if page.use_math %}
-    {% include mathjax_support.html %}
-  {% endif %}
+  {% include mathjax_support.html %}
 </head>
