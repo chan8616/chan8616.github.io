@@ -103,7 +103,23 @@ content:
           [Abstract] We present an algorithm to compute the geodesic $L_1$ farthest-point Voronoi diagram of $m$ point sites 
           in the presence of $n$ rectangular obstacles in the plane. It takes $O(nm + n \log n + m \log m)$ construction time using $O(nm)$ space.
           This is the first optimal algorithm for constructing the farthest-point Voronoi diagram in the presence of rectangular obstacles. 
-          We can construct a data structure in the same construction time and space that answer a farthest-neighbor query in $O(\log(n+m)) time.
+          We can construct a data structure in the same construction time and space that answer a farthest-neighbor query in $O(\log(n+m))$ time.
+      - layout: top-middle
+        title: Study on Fault Detection of a Gas Pressure Regulator Based on Machine Learning Algorithms
+        sub_title: Chanyang Seo, Young-Joo Suh, Dong-Ju Kim
+        link: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://koreascience.kr/article/JAKO202013363975545.pdf
+        link_text: JKSCI, Vol.25 No.4, April 2020
+        quote: >
+          [Abstract] In this paper, we propose a machine learning method for diagnosing the failure of a gas pressure regulator.
+          Originally, when implementing a machine learning model for detecting abnormal operation of a facility, it
+          is common to install sensors to collect data. However, failure of a gas pressure regulator can lead to fatal
+          safety problems, so that installing an additional sensor on a gas pressure regulator is not simple. In this
+          paper, we propose various machine learning approach for diagnosing the abnormal operation of a gas
+          pressure regulator with only the flow rate and gas pressure data collected from a gas pressure regulator itself.
+          Since the fault data of a gas pressure regulator is not enough, the model is trained in all classes by applying
+          the over-sampling method. The classification model was implemented using Gradient boosting, 1D
+          Convolutional Neural Networks, and LSTM algorithm, and gradient boosting model showed the best
+          performance among classification models with 99.975% accuracy.
       - layout: top-middle
         title: Design and Implementation of Word Classes Embedding for Improving FastText
         sub_title: Hyungbae Cho, Chanyang Seo, Soyoung Kang, Eunyoung Youn
@@ -188,6 +204,20 @@ content:
   - title: Educational Activities
     layout: list
     content:
+      - layout: right
+        border: weak
+        title: Teaching Assistant
+        sub_title: Advanced Computer Algorithms, KNOU
+        caption: 2022
+        description: | # this will include new lines to allow paragraphs
+          Algorithms
+          - Divide and conquer
+          - String algorithms
+          - Data compression algorithms
+          - Graph algorithms
+          - Greedy algorithms
+          - Dynamic programming
+          - Heuristic algorithms
       - layout: right
         border: weak
         title: Teaching Assistant
